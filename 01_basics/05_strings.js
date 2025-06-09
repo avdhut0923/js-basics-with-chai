@@ -27,5 +27,3 @@ const url = "https://jairamshreeram.com/jaijairam%20krishnahari"
 console.log(url.replace('%20','-'))
 console.log(url.includes('ram'))
 console.log(gameName.split('_'))
-
-
