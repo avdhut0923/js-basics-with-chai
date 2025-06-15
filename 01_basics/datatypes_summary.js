@@ -27,6 +27,28 @@ const myFunction = function(){
     console.log("jai jai ram jai jai ram jai jai ram krishna hari ")
 }
 myFunction();
-
 console.log(typeof anotherId);
 
+///////////////////////////////////////////////////////////////////////////
+
+
+// stack (premeative) , heap (non premeative)
+
+let myname = "ram";
+let anotherName = myname;
+anotherName = "Krishna";
+
+console.log(myname);
+console.log(anotherName);
+
+///////////////////////////////
+
+let userOne = {
+    email: "user@googl.com",
+    upi : "user@sbi,
+};
+let userTwo = userOne;
+userTwo.email = "jaiJaiRam@moksh.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
