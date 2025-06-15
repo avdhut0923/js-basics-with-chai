@@ -45,7 +45,7 @@ console.log(anotherName);
 
 let userOne = {
     email: "user@googl.com",
-    upi : "user@sbi,
+    upi : "user@sbi",
 };
 let userTwo = userOne;
 userTwo.email = "jaiJaiRam@moksh.com";
