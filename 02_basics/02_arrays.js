@@ -13,7 +13,17 @@ console.log(all_new_Heros);
 
 const rry3 = [1,2,34,[2,3,6,7,[3,6,54,3],4,5,6],3,4,9,8];
 
-const rel_rry = rry3.flat(Infinity); // new 
+const rel_rry = rry3.flat(Infinity); // new  // infinity is depth for blind but we can assign depth as 1,2,3,4,5 whatever we requird
 console.log(rel_rry);
 
-console.log(hero1.isArray("Rm"))
+console.log(Array.isArray("jaiJaiShreeRam"));
+console.log(Array.isArray("krishna"));
+console.log(Array.from("krishna"));
+
+
+let score1 = 100;
+let score3 = 300;
+let score2 = 200;
+
+console.log(Array.of(score1,score2,score3));
+
