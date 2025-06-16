@@ -1,11 +1,11 @@
 const hero1 = ["Rm","krihn", "hri"];
 const hero2 = ["hr","mhev", "hkti"];
 
-// hero1.push(hero2);
+// hero1.push(hero2);// pushes on array hero1 
 
 console.log(hero1);
 
-// const allHeros = hero1.concat(hero2);
+// const allHeros = hero1.concat(hero2); // concte and return results in new arary 
 // console.log(allHeros);
 
 const all_new_Heros = [...hero1,...hero2];
