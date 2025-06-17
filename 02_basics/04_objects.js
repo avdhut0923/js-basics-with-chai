@@ -59,3 +59,14 @@ console.log(Object.values(aWariUser));
 console.log(Object.entries(aWariUser));// rarely used
 
 console.log(aWariUser.hasOwnProperty('isLoggedIN'))
+
+
+
+const course = {
+    coursName : "js in hindi",
+    price : "999",
+    courseInstructorName : "RamBhatachyrya",
+
+}
+const {courseInstructorName : ci} = course;
+console.log(ci);
