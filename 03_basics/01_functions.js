@@ -40,6 +40,24 @@ const user = {
     prices: 199
 }
 function handleObject(anyobject){
-    console.log(`username is ${anyobject.userName} and price is ${anyobject.prices}`)
+    // console.log(`username is ${anyobject.userName} and price is ${anyobject.prices}`)
 }
-handleObject(user);
+// handleObject(user);
+
+
+handleObject({
+    username:"sam",
+    price:399
+})
+
+
+
+
+const myarr = [2,3,4,5,6,7,8,90,12];
+
+function returnSecVal (getarr){
+    return getarr[1];
+}
+
+// console.log(returnSecVal(myarr));
+console.log(returnSecVal([232,343,543]));
