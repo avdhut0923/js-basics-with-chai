@@ -84,3 +84,17 @@ if(Object.keys(obj).length === 0 ){
         console.log("object is empty") ;
 
 }
+
+// NUllish Coalescing Operator (??):null,undefined 
+
+let val1 ;
+val1  = 5 ?? 10;
+// console.log(val1)
+
+val1 = null ?? 10;
+// val1 = undefined ?? 15;
+// console.log(val1)
+
+//TERNIARY OPERATOR
+const iceTeaPrice = 100;
+// iceTeaPrice <=80 ? console.log("buy it") : console.log("dont buy")
